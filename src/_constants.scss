@@ -1,0 +1,22 @@
+$gold: #e8c300;
+$white: #ffffff;
+$black: #333333;
+//--header--//
+$header-item-fz: 0.8em;
+$header-item-phone-fz: 0.65em;
+
+.flex {
+    display: flex;
+}
+.fd-row {
+    flex-direction: row;
+}
+.jc-sb {
+    justify-content: space-between;
+}
+.jc-center {
+    justify-content: center;
+}
+.wrap {
+    flex-wrap: wrap;
+}

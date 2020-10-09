@@ -1,3 +1,133 @@
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fd-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.jc-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  padding: 0 80px;
+}
+
+.header__wrapper {
+  border-bottom: 1px solid #ffffff;
+}
+
+.header__item {
+  width: 133px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8em;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 992px) {
+  .header__item {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__item {
+    font-size: 0.65em;
+  }
+}
+
+.header__logo {
+  width: 150px;
+  height: 150px;
+  margin: 25px 35px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__logo {
+    width: 100px;
+    height: 100px;
+    margin: 50px 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    padding: 0;
+  }
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fd-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.jc-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 * {
   padding: 0;
   margin: 0;
