@@ -11,6 +11,13 @@
           flex-direction: row;
 }
 
+.fd-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .jc-sb {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -26,6 +33,190 @@
 .wrap {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.title {
+  font-family: "Banny", sans-serif;
+}
+
+.title::after {
+  content: "";
+  width: 50px;
+  height: 5px;
+  display: block;
+  position: absolute;
+  bottom: -30px;
+  left: calc(50% - 25px);
+  background-color: #e8c300;
+}
+
+.subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8em;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+}
+
+@font-face {
+  font-family: "Banny";
+  src: url("../fonts/Banny-Round.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/opensans.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.explore {
+  width: 100%;
+  height: auto;
+  background-image: url("../img/explore-bg.png"), url("../img/Line.png"), url("../img/Line.png");
+  background-position: 0 0, top 0 left 300px, bottom 0 right 300px;
+}
+
+.explore__subtitle {
+  width: 100%;
+  height: auto;
+  margin-top: 326px;
+  color: #ffffff;
+}
+
+.explore__title {
+  width: 100%;
+  height: auto;
+  margin-top: 27px;
+  position: relative;
+  font-size: 6.5em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.explore__button {
+  margin: 66px 20px 0;
+}
+
+.explore__next {
+  width: 60px;
+  height: 60px;
+  margin: 92px calc(50% - 30px) 70px;
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0);
+  color: #ffffff;
+}
+
+.explore__schedule {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 450px;
+  left: 0;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  color: #ffffff;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.explore .sidebar {
+  position: absolute;
+  top: 340px;
+  right: 80px;
+}
+
+.explore .sidebar__button {
+  margin-bottom: 20px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fd-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.fd-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.jc-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.title {
+  font-family: "Banny", sans-serif;
+}
+
+.title::after {
+  content: "";
+  width: 50px;
+  height: 5px;
+  display: block;
+  position: absolute;
+  bottom: -30px;
+  left: calc(50% - 25px);
+  background-color: #e8c300;
+}
+
+.subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8em;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+}
+
+@font-face {
+  font-family: "Banny";
+  src: url("../fonts/Banny-Round.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/opensans.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }
 
 .header {
@@ -111,6 +302,13 @@
           flex-direction: row;
 }
 
+.fd-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .jc-sb {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -126,6 +324,174 @@
 .wrap {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.title {
+  font-family: "Banny", sans-serif;
+}
+
+.title::after {
+  content: "";
+  width: 50px;
+  height: 5px;
+  display: block;
+  position: absolute;
+  bottom: -30px;
+  left: calc(50% - 25px);
+  background-color: #e8c300;
+}
+
+.subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8em;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+}
+
+@font-face {
+  font-family: "Banny";
+  src: url("../fonts/Banny-Round.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/opensans.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.button {
+  height: auto;
+  width: auto;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8em;
+  line-height: 20px;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  border: 0;
+}
+
+.button__gold {
+  background-color: #e8c300;
+  padding: 19px 66px;
+}
+
+.button__lite {
+  border: 1px solid #ffffff;
+  padding: 19px 76px;
+}
+
+.button__round {
+  width: 40px;
+  height: 40px;
+  font-size: 1em;
+  line-height: 23px;
+  border-radius: 50%;
+  border: none;
+}
+
+.button__sidebar {
+  width: 60px;
+  height: 60px;
+  font-size: 1em;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0);
+  color: #ffffff;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fd-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.fd-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.jc-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.title {
+  font-family: "Banny", sans-serif;
+}
+
+.title::after {
+  content: "";
+  width: 50px;
+  height: 5px;
+  display: block;
+  position: absolute;
+  bottom: -30px;
+  left: calc(50% - 25px);
+  background-color: #e8c300;
+}
+
+.subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8em;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+}
+
+@font-face {
+  font-family: "Banny";
+  src: url("../fonts/Banny-Round.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/opensans.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }
 
 * {
