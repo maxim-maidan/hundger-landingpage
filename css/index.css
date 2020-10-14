@@ -89,6 +89,12 @@
   color: #ffffff;
 }
 
+@media screen and (max-width: 600px) {
+  .explore__subtitle {
+    margin-top: 240px;
+  }
+}
+
 .explore__title {
   width: 100%;
   height: auto;
@@ -100,8 +106,22 @@
   color: #ffffff;
 }
 
+@media screen and (max-width: 600px) {
+  .explore__title {
+    font-size: 3.5em;
+    margin: 30px 0;
+    padding: 0 5%;
+  }
+}
+
 .explore__button {
   margin: 66px 20px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .explore__button {
+    margin-top: 20px;
+  }
 }
 
 .explore__next {
@@ -113,6 +133,12 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   background-color: rgba(0, 0, 0, 0);
   color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+  .explore__next {
+    margin-top: 40px;
+  }
 }
 
 .explore__schedule {
@@ -132,6 +158,12 @@
           transform: rotate(-90deg);
 }
 
+@media screen and (max-width: 1200px) {
+  .explore__schedule {
+    display: none;
+  }
+}
+
 .explore .sidebar {
   position: absolute;
   top: 340px;
@@ -140,6 +172,18 @@
 
 .explore .sidebar__button {
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .explore .sidebar {
+    right: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .explore .sidebar {
+    display: none;
+  }
 }
 
 .flex {
@@ -226,10 +270,6 @@
   padding: 0 80px;
 }
 
-.header__wrapper {
-  border-bottom: 1px solid #ffffff;
-}
-
 .header__item {
   width: 133px;
   height: 100px;
@@ -249,6 +289,7 @@
   font-size: 0.8em;
   line-height: 18px;
   color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 @media screen and (max-width: 992px) {

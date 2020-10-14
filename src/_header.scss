@@ -6,9 +6,6 @@
 
     padding: 0 80px;
 
-    &__wrapper {
-        border-bottom: 1px solid $white;
-    }
     &__item {
         width: 133px;
         height: 100px;
@@ -24,6 +21,7 @@
         font-size: $header-item-fz;
         line-height: 18px;
         color: $white;
+        border-bottom: 1px solid $border;
         @media screen and (max-width:992px) {
             &{
                 width: 50%;
