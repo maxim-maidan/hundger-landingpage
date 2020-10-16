@@ -21,6 +21,10 @@ $explorer-subtitle-fz: 0.8em;
 $explorer-title-fz: 6.5em;
 $explorer-title-phone-fz: 3.5em;
 
+//--about--//
+$about-title: 2.5em;
+$about-subtitle: 1em;
+
 .flex {
     display: flex;
 }
@@ -39,9 +43,14 @@ $explorer-title-phone-fz: 3.5em;
 .wrap {
     flex-wrap: wrap;
 }
+.ta-center {
+    text-align: center;
+}
 
 .title {
     font-family: "Banny", sans-serif;
+    position: relative;
+    text-transform: uppercase;
 
     &::after {
         content: "";
@@ -49,23 +58,59 @@ $explorer-title-phone-fz: 3.5em;
         height: 5px;
         display: block;
         position: absolute;
-        bottom: -30px;
+        bottom: -20px;
         left: calc(50% - 25px);
         background-color: $gold;
     }
 }
 .subtitle {
+    width: 100%;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: $explorer-subtitle-fz;
-    line-height: 14px;
+    line-height: 1em;
 
     text-align: center;
     letter-spacing: 0.5em;
     text-transform: uppercase;
 }
+.subhead {
+    width: 600px;
+    padding-top: 35px;
 
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-size: $about-subtitle;
+    line-height: 2em;
+    font-weight: 400;
+}
+.strong {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.img {
+    width: 475px;
+    height: 475px;
+    position: relative;
+
+    &__square {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        top: 113px;
+
+        border: 20px solid $gold;
+    }
+}
+.right{
+    right: -25%;
+}
+.left{
+    left: -25%;
+}
+//--fonts--//
 @font-face {
     font-family: "Banny";
     src: url("../fonts/Banny-Round.otf") format("truetype");
