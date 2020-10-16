@@ -1,0 +1,98 @@
+@import "_constants";
+.explore {
+    width: 100%;
+    height: auto;
+
+    background-image: url("../img/explore-bg.png"), url("../img/Line.png"), url("../img/Line.png");
+    background-position: 0 0, top 0 left 300px, bottom 0 right 300px;
+    
+    &__subtitle {
+        width: 100%;
+        height: auto;
+        margin-top: 326px;
+
+        color: $white;
+        @media screen and (max-width: 600px){
+            margin-top: 240px;
+        }
+    }
+    &__title {
+        width: 100%;
+        height: auto;
+        margin-top: 27px;
+        position: relative;
+
+        font-size: $explorer-title-fz;
+
+        text-align: center;
+        text-transform: uppercase;
+
+        color: $white;
+        @media screen and (max-width: 600px){
+            font-size: $explorer-title-phone-fz;
+            margin: 30px 0;
+            padding: 0 5%;
+
+        }
+    }
+    &__button {
+        margin: 66px 20px 0;
+
+        @media screen and (max-width: 600px){
+            margin-top: 20px;
+        }
+    }
+    &__next {
+        width: 60px;
+        height: 60px;
+
+        margin: 92px calc(50% - 30px) 70px;
+        padding: 10px;
+
+        border-radius: 50%;
+        border: 1px solid $border;
+
+        background-color: $clear;
+        color: $white;
+
+        @media screen and (max-width: 600px){
+            margin-top: 40px;
+        }
+    }
+    &__schedule {
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 450px;
+        left: 0;
+
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 12px;
+
+        text-align: center;
+        color: $white;
+
+        transform: rotate(-90deg);
+
+        @media screen and (max-width: 1200px){
+            display: none;
+        }
+    }
+    .sidebar {
+        position: absolute;
+        top: 340px;
+        right: 80px;
+        &__button {
+            margin-bottom: 20px;
+        }
+        @media screen and (max-width: 1200px){
+            right: 20px;
+        }
+        @media screen and (max-width: 992px){
+            display: none;
+        }
+    }
+}
