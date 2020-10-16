@@ -35,8 +35,14 @@
       flex-wrap: wrap;
 }
 
+.ta-center {
+  text-align: center;
+}
+
 .title {
   font-family: "Banny", sans-serif;
+  position: relative;
+  text-transform: uppercase;
 }
 
 .title::after {
@@ -45,7 +51,7 @@
   height: 5px;
   display: block;
   position: absolute;
-  bottom: -30px;
+  bottom: -20px;
   left: calc(50% - 25px);
   background-color: #e8c300;
 }
@@ -55,10 +61,176 @@
   font-style: normal;
   font-weight: bold;
   font-size: 0.8em;
-  line-height: 14px;
+  line-height: 1em;
   text-align: center;
   letter-spacing: 0.5em;
   text-transform: uppercase;
+}
+
+.subhead {
+  width: 600px;
+  padding-top: 35px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 2em;
+  font-weight: 400;
+}
+
+.strong {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.img {
+  width: 475px;
+  height: 475px;
+  position: relative;
+}
+
+.img__square {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 113px;
+  right: -15%;
+  border: 20px solid #e8c300;
+}
+
+@font-face {
+  font-family: "Banny";
+  src: url("../fonts/Banny-Round.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/opensans.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.about {
+  width: 100%;
+  height: auto;
+  padding: 100px 205px 100px 80px;
+}
+
+.about__title {
+  margin-top: 100px;
+  font-size: 2.5em;
+  color: #333333;
+}
+
+.about__subtitle {
+  color: #333333;
+}
+
+.about__img {
+  background-image: url("../img/about-img.png");
+  background-size: 100% 100%;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fd-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.fd-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.jc-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.title {
+  font-family: "Banny", sans-serif;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.title::after {
+  content: "";
+  width: 50px;
+  height: 5px;
+  display: block;
+  position: absolute;
+  bottom: -20px;
+  left: calc(50% - 25px);
+  background-color: #e8c300;
+}
+
+.subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8em;
+  line-height: 1em;
+  text-align: center;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+}
+
+.subhead {
+  width: 600px;
+  padding-top: 35px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 2em;
+  font-weight: 400;
+}
+
+.strong {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.img {
+  width: 475px;
+  height: 475px;
+  position: relative;
+}
+
+.img__square {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 113px;
+  right: -15%;
+  border: 20px solid #e8c300;
 }
 
 @font-face {
@@ -223,8 +395,14 @@
       flex-wrap: wrap;
 }
 
+.ta-center {
+  text-align: center;
+}
+
 .title {
   font-family: "Banny", sans-serif;
+  position: relative;
+  text-transform: uppercase;
 }
 
 .title::after {
@@ -233,7 +411,7 @@
   height: 5px;
   display: block;
   position: absolute;
-  bottom: -30px;
+  bottom: -20px;
   left: calc(50% - 25px);
   background-color: #e8c300;
 }
@@ -243,10 +421,41 @@
   font-style: normal;
   font-weight: bold;
   font-size: 0.8em;
-  line-height: 14px;
+  line-height: 1em;
   text-align: center;
   letter-spacing: 0.5em;
   text-transform: uppercase;
+}
+
+.subhead {
+  width: 600px;
+  padding-top: 35px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 2em;
+  font-weight: 400;
+}
+
+.strong {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.img {
+  width: 475px;
+  height: 475px;
+  position: relative;
+}
+
+.img__square {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 113px;
+  right: -15%;
+  border: 20px solid #e8c300;
 }
 
 @font-face {
@@ -367,8 +576,14 @@
       flex-wrap: wrap;
 }
 
+.ta-center {
+  text-align: center;
+}
+
 .title {
   font-family: "Banny", sans-serif;
+  position: relative;
+  text-transform: uppercase;
 }
 
 .title::after {
@@ -377,7 +592,7 @@
   height: 5px;
   display: block;
   position: absolute;
-  bottom: -30px;
+  bottom: -20px;
   left: calc(50% - 25px);
   background-color: #e8c300;
 }
@@ -387,10 +602,41 @@
   font-style: normal;
   font-weight: bold;
   font-size: 0.8em;
-  line-height: 14px;
+  line-height: 1em;
   text-align: center;
   letter-spacing: 0.5em;
   text-transform: uppercase;
+}
+
+.subhead {
+  width: 600px;
+  padding-top: 35px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 2em;
+  font-weight: 400;
+}
+
+.strong {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.img {
+  width: 475px;
+  height: 475px;
+  position: relative;
+}
+
+.img__square {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 113px;
+  right: -15%;
+  border: 20px solid #e8c300;
 }
 
 @font-face {
@@ -495,8 +741,14 @@
       flex-wrap: wrap;
 }
 
+.ta-center {
+  text-align: center;
+}
+
 .title {
   font-family: "Banny", sans-serif;
+  position: relative;
+  text-transform: uppercase;
 }
 
 .title::after {
@@ -505,7 +757,7 @@
   height: 5px;
   display: block;
   position: absolute;
-  bottom: -30px;
+  bottom: -20px;
   left: calc(50% - 25px);
   background-color: #e8c300;
 }
@@ -515,10 +767,41 @@
   font-style: normal;
   font-weight: bold;
   font-size: 0.8em;
-  line-height: 14px;
+  line-height: 1em;
   text-align: center;
   letter-spacing: 0.5em;
   text-transform: uppercase;
+}
+
+.subhead {
+  width: 600px;
+  padding-top: 35px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 2em;
+  font-weight: 400;
+}
+
+.strong {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.img {
+  width: 475px;
+  height: 475px;
+  position: relative;
+}
+
+.img__square {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 113px;
+  right: -15%;
+  border: 20px solid #e8c300;
 }
 
 @font-face {

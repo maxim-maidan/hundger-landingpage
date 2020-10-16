@@ -1,0 +1,22 @@
+@import "_constants";
+.about {
+    width: 100%;
+    height: auto;
+
+    padding: 100px 205px 100px 80px;
+
+    &__title {
+        margin-top: 100px;
+        font-size: $about-title;
+        color: $black;
+    }
+
+    &__subtitle {
+        color: $black;
+    }
+
+    &__img {
+        background-image: url("../img/about-img.png");
+        background-size: 100% 100%;
+    }
+}
