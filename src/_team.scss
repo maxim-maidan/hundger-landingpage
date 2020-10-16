@@ -1,0 +1,30 @@
+@import '_constants';
+
+.team {
+    width: 100%;
+    height: auto;
+    background-image: url("../img/specialty\'s-bg.png");
+    background-size: 100% 100%;
+
+    padding: 0 80px 100px 205px;
+
+    &__header{
+        margin: 45px 125px 45px 0;
+        color: $white;
+    }
+
+    &__title {
+        margin-top: 100px;
+        font-size: $about-title;
+        color: $white;
+    }
+
+    &__subtitle {
+        color: $white;
+    }
+
+    &__img {
+        background-image: url("../img/rectangle.png");
+        background-size: 100% 100%;
+    }
+}

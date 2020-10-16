@@ -64,6 +64,7 @@ $about-subtitle: 1em;
     }
 }
 .subtitle {
+    width: 100%;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -99,12 +100,16 @@ $about-subtitle: 1em;
         height: 250px;
         position: absolute;
         top: 113px;
-        right: -15%;
 
         border: 20px solid $gold;
     }
 }
-
+.right{
+    right: -25%;
+}
+.left{
+    left: -25%;
+}
 //--fonts--//
 @font-face {
     font-family: "Banny";
