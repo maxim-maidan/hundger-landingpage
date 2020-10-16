@@ -1,0 +1,58 @@
+@import '_constants';
+.header {
+    width: 100%;
+    height: auto;
+    position: fixed;
+
+    padding: 0 80px;
+
+    &__item {
+        width: 133px;
+        height: 100px;
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+
+        text-transform: uppercase;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: $header-item-fz;
+        line-height: 18px;
+        color: $white;
+        border-bottom: 1px solid $border;
+        @media screen and (max-width:992px) {
+            &{
+                width: 50%;
+            }
+        }
+        @media screen and (max-width:600px) {
+            &{
+                font-size: $header-item-phone-fz;
+            }
+        }
+    }
+    &__logo {
+        width: 150px;
+        height: 150px;
+        margin: 25px 35px;
+        @media screen and (max-width:768px) {
+            &{
+                width: 100px;
+                height: 100px;
+                margin: 50px 5px;
+            }
+        }
+    }
+    @media screen and (max-width:768px) {
+        &{
+            padding: 0 20px;
+        }
+    }
+    @media screen and (max-width:600px) {
+        &{
+            padding: 0;
+        }
+    }
+}
