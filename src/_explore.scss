@@ -4,6 +4,8 @@
     height: auto;
 
     background-image: url("../img/explore-bg.png"), url("../img/Line.png"), url("../img/Line.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     background-position: 0 0, top 0 left 300px, bottom 0 right 300px;
     
     &__subtitle {
